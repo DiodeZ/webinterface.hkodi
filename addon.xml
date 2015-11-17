@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="webinterface.hkodi"
+  version="2.2.24"
+  name="hkodi webinterface"
+  provider-name="DiodeZ">
+  <requires>
+    <import addon="xbmc.json" version="6.0.0"/>
+  </requires>
+  <extension
+    point="xbmc.webinterface"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_US">Kodi Web Interface. (Kodi's web interface)</summary>
+    <summary lang="vi_VN">Giao diện Web Kodi. (Giao diện Web của Kodi)</summary>
+    <description lang="en_US">Hkodi interface for Kodi; Designed for devices of all resolutions</description>
+    <description lang="vi_VN">Giao diện Hkodi cho Kodi; Thiết kế cho các thiết bị ở tất cả độ phân giải khác nhau</description>
+    <platform>all</platform>
+  </extension>
+</addon>
