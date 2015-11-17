@@ -2,7 +2,7 @@
 <addon
   id="webinterface.hkodi"
   version="2.2.24"
-  name="hkodi webinterface"
+  name="Hkodi webinterface"
   provider-name="DiodeZ">
   <requires>
     <import addon="xbmc.json" version="6.0.0"/>
