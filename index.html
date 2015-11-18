@@ -41,25 +41,58 @@
         </ul>
         <div class="frames bg-grayLight">
             <div class="frame" id="__playing">
-            <div class="slider ani" data-role="slider" data-complete-color="ribbed-green" data-marker-color="bg-cyan" data-color="bg-lightRed" data-position="75"></div> 
+			<table>
+				<tr>
+					<td colspan=6>
+					
+                <span class="mif-volume-plus hbutton"></span><br/>
+                <span class="mif-volume-minus hbutton"></span><br/>
+                <span class="mif-volume-mute2 hbutton"></span><br/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=6>
+					<div class="slider" data-role="slider" data-complete-color="ribbed-green" data-marker-color="bg-cyan" data-color="bg-lightRed" data-position="75"></div> 
+					</td>
+				</tr>
+				<tr>
+					<td>
                 <span class="mif-first hbutton"></span>
+					</td>
+					<td>
                 <span class="mif-backward hbutton"></span>
+					</td>
+					<td>
                 <span class="mif-play hbutton"></span>
+					</td>
+					<td>
                 <span class="mif-stop hbutton"></span>
+					</td>
+					<td>
                 <span class="mif-forward hbutton"></span>
+					</td>
+					<td>
                 <span class="mif-last hbutton"></span>
-                <br/>
-                <span class="mif-loop hbutton"></span>
-                <span class="mif-shuffle hbutton"></span>
-                <span class="mif-volume-minus hbutton"></span>
-                <div class="input-control range">
-                            <input type="range">
-                        </div>
-                <span class="mif-volume-plus hbutton"></span>
-                <span class="mif-volume-mute2 hbutton"></span>
+					</td>
+				</tr>
+			</table>
+			<div data-role="group" data-group-type="multi-state" data-button-style="class">
+    <button class="button mif-loop hbutton"></button>
+    <button class="button mif-shuffle hbutton"></button>
+</div>
             </div>
             <div class="frame" id="__controls">
-            <table cellspacing=0 border=0 style="text-align:center;margin:auto auto;">
+            <table cellspacing=0 border=0 style="text-align:center;">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><span class="mif-switch hbutton"></span></td>
+                </tr>
+                <tr>
+                    <td style="height:30px;"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
                 <tr>
                     <td></td>
                     <td><span class="mif-arrow-up hbutton"></span></td>
@@ -75,13 +108,22 @@
                     <td><span class="mif-arrow-down hbutton"></span></td>
                     <td></td>
                 </tr>
+                <tr>
+                    <td style="height:30px;"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><span class="mif-keyboard hbutton"></span></td>
+                    <td><span class="mif-eject hbutton"></span></td>
+                    <td><span class="mif-keyboard-return hbutton"></span></td>
+                </tr>
+                <tr>
+                    <td><span class="mif-home hbutton"></span></td>
+                    <td><span class="mif-menu hbutton"></span></td>
+                    <td><span class="mif-info hbutton"></span></td>
+                </tr>
             </table>
-            <span class="mif-keyboard hbutton"></span>
-            <span class="mif-keyboard-osd hbutton"></span>
-            <span class="mif-keyboard-return hbutton"></span>
-            <span class="mif-home hbutton"></span>
-            <span class="mif-menu hbutton"></span>
-            <span class="mif-info hbutton"></span>
             </div>
         </div>
     </div>
